@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">FitnessApp</string>
 
+    <string name="fn_label">Food Nutrition</string>
+    <string name="fn_day_seven">Day Seven</string>
+    <string name="fn_day_six">Day Six</string>
+    <string name="fn_day_five">Day Five</string>
+    <string name="fn_day_four">Day Four</string>
+    <string name="fn_day_three">Day Three</string>
+    <string name="fn_day_two">Day Two</string>
+    <string name="fn_day_one">Day One</string>
+    <string name="fn_week_plan">A Week of Healthy Meal Plans</string>
+    <string name="d1_breakfast">BREAKFAST</string>
+    <string name="d1_bf_content">One grapefruit Two poached eggs (or fried in a non-stick pan) Two slices whole-grain toast with one pat of butter each One cup low-fat milk One cup of black coffee or herbal tea Snack: One banana One cup plain yogurt with two tablespoons honey Glass of water</string>
+    <string name="d1_lunch">LUNCH</string>
+    <string name="d1_lunch_content">One banana One cup plain yogurt with two tablespoons honey Glass of water One cup carrot slices Three tablespoons hummus One-half piece of pita bread Glass of water or herbal tea</string>
+    <string name="d1_dinner">DINNER</string>
+    <string name="d1_dinner_content">One cup carrot slices Three tablespoons hummus One-half piece of pita bread Glass of water or herbal tea One cup blueberries Two tablespoons whipped cream (the real stuff—whip your own or buy in a can) Glass of water</string>
 </resources>
