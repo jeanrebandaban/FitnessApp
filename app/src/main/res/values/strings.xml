@@ -10,10 +10,53 @@
     <string name="fn_day_two">Day Two</string>
     <string name="fn_day_one">Day One</string>
     <string name="fn_week_plan">A Week of Healthy Meal Plans</string>
+
     <string name="d1_breakfast">BREAKFAST</string>
-    <string name="d1_bf_content">One grapefruit Two poached eggs (or fried in a non-stick pan) Two slices whole-grain toast with one pat of butter each One cup low-fat milk One cup of black coffee or herbal tea Snack: One banana One cup plain yogurt with two tablespoons honey Glass of water</string>
+    <string name="d1_bf_content">One grapefruit\nTwo poached eggs (or fried in a non-stick pan)\nTwo slices whole-grain toast with one pat of butter each\nOne cup low-fat milk\nOne cup of black coffee or herbal tea</string>
     <string name="d1_lunch">LUNCH</string>
-    <string name="d1_lunch_content">One banana One cup plain yogurt with two tablespoons honey Glass of water One cup carrot slices Three tablespoons hummus One-half piece of pita bread Glass of water or herbal tea</string>
+    <string name="d1_lunch_content">One banana\nOne cup plain yogurt with two tablespoons honey\nGlass of water\nOne cup carrot slices\nThree tablespoons hummus\nOne-half piece of pita bread\nGlass of water or herbal tea</string>
     <string name="d1_dinner">DINNER</string>
-    <string name="d1_dinner_content">One cup carrot slices Three tablespoons hummus One-half piece of pita bread Glass of water or herbal tea One cup blueberries Two tablespoons whipped cream (the real stuff—whip your own or buy in a can) Glass of water</string>
+    <string name="d1_dinner_content">One cup carrot slices\nThree tablespoons hummus\nOne-half piece of pita bread\nGlass of water or herbal tea\nOne cup blueberries\nTwo tablespoons whipped cream (the real stuff—whip your own or buy in a can)\nGlass of water</string>
+
+    <string name="d2_breakfast">BREAKFAST</string>
+    <string name="d2_bf_content">One whole-wheat English muffin with two tablespoons peanut butter\nOne orange\nLarge glass (12 ounces) non-fat milk\nOne cup of black coffee or herbal tea</string>
+    <string name="d2_lunch">LUNCH</string>
+    <string name="d2_lunch_content">A turkey sandwich (six ounces of turkey breast meat, large tomato slice, green lettuce and mustard on two slices of whole wheat bread\nOne cup low-sodium vegetable soup\nGlass of water</string>
+    <string name="d2_dinner">DINNER</string>
+    <string name="d2_dinner_content">Five-ounce sirloin steak\nOne cup mashed potatoes\nOne cup cooked spinach\nOne cup green beans\nOne glass beer (regular, lite or non-alcohol)\nSparkling water with lemon or lime slice</string>
+
+    <string name="d3_breakfast">BREAKFAST</string>
+    <string name="d3_bf_content">One medium bran muffin\nOne serving turkey breakfast sausage\nOne orange\nOne cup non-fat milk\nOne cup black coffee or herbal tea</string>
+    <string name="d3_lunch">LUNCH</string>
+    <string name="d3_lunch_content">Low sodium chicken noodle soup with six saltine crackers\nOne medium apple\nWater</string>
+    <string name="d3_dinner">DINNER</string>
+    <string name="d3_dinner_content">8-ounce serving of turkey breast meat\nOne cup baked beans\nOne cup cooked carrots\nOne cup cooked kale\nOne glass of wine</string>
+
+    <string name="d4_breakfast">BREAKFAST</string>
+    <string name="d4_bf_content">One cup whole wheat flakes with one cup non-fat milk and one teaspoon sugar/nOne banana/nOne slice whole-grain toast with one tablespoon peanut butter/nOne cup of black coffee or herbal tea</string>
+    <string name="d4_lunch">LUNCH</string>
+    <string name="d4_lunch_content">Tuna wrap with one wheat flour tortilla, one-half can water-packed tuna (drained), one tablespoon mayonnaise, lettuce, and sliced tomato\nOne sliced avocado\nOne cup non-fat milk</string>
+    <string name="d4_dinner">DINNER</string>
+    <string name="d4_dinner_content">One serving lasagna\nSmall garden salad with tomatoes and onions topped with one tablespoon salad dressing\nOne cup non-fat milk</string>
+
+    <string name="d5_breakfast">BREAKFAST</string>
+    <string name="d5_bf_content">One piece of French toast with one tablespoon maple syrup\nOne scrambled or poached egg\nOne serving turkey bacon\nOne cup orange juice\nOne cup black coffee or herbal tea</string>
+    <string name="d5_lunch">LUNCH</string>
+    <string name="d5_lunch_content">Veggie burger on a whole grain bun\nOne cup northern (or other dry) beans\nOne cup non-fat milk</string>
+    <string name="d5_dinner">DINNER</string>
+    <string name="d5_dinner_content">One trout filet\nOne cup green beans\nOne cup brown rice\nOne small garden salad with two tablespoons salad dressing\nOne glass of beer\nSparkling water with lemon or lime slice</string>
+
+    <string name="d6_breakfast">BREAKFAST</string>
+    <string name="d6_bf_content">One cup corn flakes with two teaspoons sugar and one cup non-fat milk\nOne banana\nOne hard-boiled egg\nOne cup black coffee or herbal tea</string>
+    <string name="d6_lunch">LUNCH</string>
+    <string name="d6_lunch_content">One cup whole wheat pasta with one-half cup red pasta sauce\nMedium garden salad with tomatoes and onions and two tablespoons salad dressing\nGlass of water </string>
+    <string name="d6_dinner">DINNER</string>
+    <string name="d6_dinner_content">Four and one-half ounce serving of pork loin\nSmall garden salad with tomatoes and onions topped with two tablespoons oil and vinegar (or salad dressing)\nOne small baked sweet potato\nOne cup asparagus\nOne glass wine (regular or dealcoholized)\nSparkling water with lemon or lime slice</string>
+
+    <string name="d7_breakfast">BREAKFAST</string>
+    <string name="d7_bf_content">One cup cooked oatmeal with one-half cup blueberries, one-half cup non-fat milk, and one tablespoon almond slivers\nTwo slices turkey bacon\nOne cup non-fat milk to drink\nOne cup black coffee or herbal tea</string>
+    <string name="d7_lunch">LUNCH</string>
+    <string name="d7_lunch_content">Six-ounce baked chicken breast\nLarge garden salad with tomatoes and onions and two tablespoons salad dressing\nOne baked sweet potato\nOne whole-wheat dinner roll\nGlass of water</string>
+    <string name="d7_dinner">DINNER</string>
+    <string name="d7_dinner_content">3-ounce serving of baked or grilled salmon\nOne-half cup black beans\nOne cup Swiss chard\nOne cup brown rice\nOne whole wheat dinner roll with a pat of butter\nSparkling water with lemon or lime slice</string>
 </resources>
