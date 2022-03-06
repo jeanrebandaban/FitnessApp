@@ -23,7 +23,7 @@
     <string name="d2_lunch">LUNCH</string>
     <string name="d2_lunch_content">A turkey sandwich (six ounces of turkey breast meat, large tomato slice, green lettuce and mustard on two slices of whole wheat bread\nOne cup low-sodium vegetable soup\nGlass of water</string>
     <string name="d2_dinner">DINNER</string>
-    <string name="d2_dinner_content">Five-ounce sirloin steak\nOne cup mashed potatoes\nOne cup cooked spinach\nOne cup green beans\nOne glass beer (regular, lite or non-alcohol)\nSparkling water with lemon or lime slice</string>
+    <string name="d2_dinner_content">Five ounce sirloin steak\nOne cup mashed potatoes\nOne cup cooked spinach\nOne cup green beans\nOne glass beer (regular, lite or non-alcohol)\nSparkling water with lemon or lime slice</string>
 
     <string name="d3_breakfast">BREAKFAST</string>
     <string name="d3_bf_content">One medium bran muffin\nOne serving turkey breakfast sausage\nOne orange\nOne cup non-fat milk\nOne cup black coffee or herbal tea</string>

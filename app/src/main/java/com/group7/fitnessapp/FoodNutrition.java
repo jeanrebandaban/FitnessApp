@@ -14,6 +14,7 @@ public class FoodNutrition extends Activity {
 
     public void viewDay (View v){
         Intent i = new Intent(this.getApplicationContext(), ActivityFNViewDay.class);
+        i.putExtra("day", v.getTag().toString());
         startActivity(i);
     }
 }
