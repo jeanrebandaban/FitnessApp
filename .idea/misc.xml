@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Gekris/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/bagong_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gekris/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/coach_profil_fitness.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gekris/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/coach_profile.xml" value="0.33" />
+        <entry key="..\:/Users/Gekris/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/coach_profile_athletic.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gekris/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/coach_profile_build.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gekris/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/coach_profile_fitness.xml" value="0.33" />
+        <entry key="..\:/Users/Gekris/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/coach_profile_health.xml" value="0.33" />
+        <entry key="..\:/Users/Gekris/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/coach_profile_nutrition.xml" value="0.33" />
+        <entry key="..\:/Users/Gekris/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/coach_profile_xfit.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/dientnutrition.xml" value="0.22826086956521738" />
       </map>
     </option>
