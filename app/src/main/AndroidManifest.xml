@@ -18,7 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DietNutrition"/>
+        <activity android:name=".FoodNutrition"/>
+        <activity android:name=".ActivityFNViewDay"/>
     </application>
 
 </manifest>

@@ -49,7 +49,8 @@
         app:cardMaxElevation="2dp"
         app:cardPreventCornerOverlap="true"
         app:cardUseCompatPadding="true"
-        android:focusable="true">
+        android:focusable="true"
+        android:onClick="viewDay">
 
         <TextView
             android:id="@+id/d7"
@@ -75,7 +76,8 @@
         app:cardMaxElevation="2dp"
         app:cardPreventCornerOverlap="true"
         app:cardUseCompatPadding="true"
-        android:focusable="true">
+        android:focusable="true"
+        android:onClick="viewDay">
 
         <TextView
             android:id="@+id/d6"
@@ -101,7 +103,8 @@
         app:cardMaxElevation="2dp"
         app:cardPreventCornerOverlap="true"
         app:cardUseCompatPadding="true"
-        android:focusable="true">
+        android:focusable="true"
+        android:onClick="viewDay">
 
         <TextView
             android:id="@+id/d5"
@@ -127,7 +130,8 @@
         app:cardMaxElevation="2dp"
         app:cardPreventCornerOverlap="true"
         app:cardUseCompatPadding="true"
-        android:focusable="true">
+        android:focusable="true"
+        android:onClick="viewDay">
 
         <TextView
             android:id="@+id/d4"
@@ -153,7 +157,8 @@
         app:cardMaxElevation="2dp"
         app:cardPreventCornerOverlap="true"
         app:cardUseCompatPadding="true"
-        android:focusable="true">
+        android:focusable="true"
+        android:onClick="viewDay">
 
         <TextView
             android:id="@+id/d3"
@@ -179,7 +184,8 @@
         app:cardMaxElevation="2dp"
         app:cardPreventCornerOverlap="true"
         app:cardUseCompatPadding="true"
-        android:focusable="true">
+        android:focusable="true"
+        android:onClick="viewDay">
 
         <TextView
             android:id="@+id/d2"
@@ -205,8 +211,8 @@
         app:cardMaxElevation="2dp"
         app:cardPreventCornerOverlap="true"
         app:cardUseCompatPadding="true"
-        android:focusable="true">
-<!--        android:onClick="">-->
+        android:focusable="true"
+        android:onClick="viewDay">
 
         <TextView
             android:id="@+id/d1"

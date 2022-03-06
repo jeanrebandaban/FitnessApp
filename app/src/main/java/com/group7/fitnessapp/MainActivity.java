@@ -2,11 +2,9 @@ package com.group7.fitnessapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,7 +14,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void goNutrition(View v){
-        Intent i = new Intent(this.getApplicationContext(), DietNutrition.class);
+        Intent i = new Intent(this.getApplicationContext(), FoodNutrition.class);
         startActivity(i);
     }
+
+    public void viewDay (View v){
+        Intent i = new Intent(this.getApplicationContext(), ActivityFNViewDay.class);
+        startActivity(i);
+    }
+
 }
