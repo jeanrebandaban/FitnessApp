@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="btn_coach">Coaching</string>
+
     <string name="iv_coach1">coach1</string>
     <string name="iv_coach2">coach2</string>
     <string name="iv_coach3">coach3</string>
@@ -9,29 +11,33 @@
 
     <string name="tv_coach">CHOOSE \n YOUR COACH</string>
     <string name="tv_coach1">Fitness Coach</string>
-    <string name="tv_coach2">Nutritional Coach</string>
+    <string name="tv_coach2">Food Coach</string>
     <string name="tv_coach3">Health Coach</string>
     <string name="tv_coach4">Athletic Coach</string>
     <string name="tv_coach5">Cross-Fitter Coach</string>
     <string name="tv_coach6">Body Building Coach</string>
 
-    <string name="prof_fit">FITNESS COACH</string>
-    <string name="tv_prof_fit">Name: \nAge: \nContact No.: \nEmail Address: \n</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_send">Send</string>
+    <string name="iv_dialog"/>
 
-    <string name="prof_nut">NUTRITION COACH</string>
-    <string name="tv_prof_nut">Name: \nAge: \nContact No.: \nEmail Address: \n</string>
+    <string name="prof_fit">FITNESS COACH</string>
+    <string name="tv_prof_fit">Name: \nAge: \nEmail Address: \n</string>
+
+    <string name="prof_nutrition">NUTRITION COACH</string>
+    <string name="tv_prof_nutrition">Name: \nAge: \nEmail Address: \n</string>
 
     <string name="prof_health">HEALTH COACH</string>
-    <string name="tv_prof_health">Name: \nAge: \nContact No.: \nEmail Address: \n</string>
+    <string name="tv_prof_health">Name: \nAge: \nEmail Address: \n</string>
 
     <string name="prof_ath">ATHLETIC COACH</string>
-    <string name="tv_prof_ath">Name: \nAge: \nContact No.: \nEmail Address: \n</string>
+    <string name="tv_prof_ath">Name: \nAge: \nEmail Address: \n</string>
 
     <string name="prof_xfit">CROSS-FITTER COACH</string>
-    <string name="tv_prof_xfit">Name: \nAge: \nContact No.: \nEmail Address: \n</string>
+    <string name="tv_prof_xfit">Name: \nAge: \nEmail Address: \n</string>
 
-    <string name="prof_build">CROSS-FITTER COACH</string>
-    <string name="tv_prof_build">Name: \nAge: \nContact No.: \nEmail Address: \n</string>
+    <string name="prof_build">BODY BUILDING COACH</string>
+    <string name="tv_prof_build">Name: \nAge: \nEmail Address: \n</string>
 
     <string name="btn_prof">Send Message</string>
 </resources>

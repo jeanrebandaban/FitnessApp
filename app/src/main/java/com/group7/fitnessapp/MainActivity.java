@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void goCoaching(View v){
+        Intent i = new Intent(this.getApplicationContext(), Coaching.class);
+        startActivity(i);
+    }
+
 }

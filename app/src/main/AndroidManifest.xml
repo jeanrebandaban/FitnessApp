@@ -20,6 +20,14 @@
         </activity>
         <activity android:name=".FoodNutrition"/>
         <activity android:name=".ActivityFNViewDay"/>
+
+        <activity android:name=".Coaching"/>
+        <activity android:name=".CoachingFood"/>
+        <activity android:name=".CoachingFitness"/>
+        <activity android:name=".CoachingHealth"/>
+        <activity android:name=".CoachingAthletic"/>
+        <activity android:name=".CoachingXfit"/>
+        <activity android:name=".CoachingBuild"/>
     </application>
 
 </manifest>
