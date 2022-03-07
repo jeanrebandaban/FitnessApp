@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import androidx.appcompat.app.AlertDialog;
+
 public class Coaching extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
