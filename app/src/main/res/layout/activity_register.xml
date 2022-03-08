@@ -82,13 +82,11 @@
 
     <EditText
         android:id="@+id/editHeight"
-        android:layout_width="119dp"
-        android:layout_height="74dp"
-
+        android:layout_width="150dp"
+        android:layout_height="60dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="308dp"
-        android:layout_marginEnd="42dp"
+        android:layout_marginTop="312dp"
         android:ems="10"
         android:hint="Height(cm)"
         android:inputType="number"
@@ -97,14 +95,11 @@
 
     <EditText
         android:id="@+id/editWeight"
-        android:layout_width="151dp"
-        android:layout_height="58dp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
         android:layout_below="@+id/editPassword"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="193dp"
-        android:layout_marginRight="193dp"
+        android:layout_marginEnd="180dp"
         android:ems="10"
         android:gravity="center"
         android:hint="Weigth(lb)"
@@ -118,9 +113,6 @@
         android:layout_below="@+id/editWeight"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="18dp"
-        android:layout_marginRight="39dp"
         android:ems="10"
         android:gravity="center"
         android:hint="Age"
@@ -128,49 +120,29 @@
         android:textColor="#000" />
 
     <RadioGroup
-        android:layout_width="221dp"
-        android:layout_height="141dp"
-        android:layout_alignParentStart="true"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="23dp"
-        android:layout_marginEnd="196dp"
-        android:layout_marginRight="196dp"
-        android:layout_marginBottom="307dp">
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="80dp">
 
         <RadioButton
             android:id="@+id/radioMale"
-            android:layout_width="106dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/editWeight"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="35dp"
-            android:layout_marginLeft="35dp"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
             android:layout_marginTop="15dp"
-            android:minHeight="48dp"
+            android:minHeight="40dp"
             android:onClick="onRadioButtonClicked"
             android:text="Male"
             tools:ignore="TouchTargetSizeCheck" />
-        />
 
         <RadioButton
             android:id="@+id/radioFemale"
-            android:layout_width="109dp"
-            android:layout_height="40dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="35dp"
-            android:layout_marginLeft="35dp"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
             android:layout_marginTop="0dp"
-            android:minHeight="48dp"
+            android:minHeight="40dp"
             android:onClick="onRadioButtonClicked"
             android:text="Female"
             tools:ignore="TouchTargetSizeCheck" />
@@ -178,20 +150,12 @@
 
     <CheckBox
         android:id="@+id/checkBox"
-        android:layout_width="194dp"
-        android:layout_height="30dp"
+        android:layout_width="283dp"
+        android:layout_height="50dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="78dp"
-        android:layout_marginLeft="78dp"
-        android:layout_marginTop="470dp"
-        android:layout_marginEnd="72dp"
-        android:layout_marginRight="72dp"
-        android:layout_marginBottom="124dp"
+        android:layout_marginBottom="50dp"
         android:onClick="onCheckboxClicked"
         android:text="I have read and agree with this terms and conditions"
         tools:ignore="OnClick,TouchTargetSizeCheck" />
@@ -200,9 +164,8 @@
         android:id="@+id/buttonRegister"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="500dp"
-        android:layout_marginBottom="66dp"
         android:text="SIGN UP"
         tools:ignore="TouchTargetSizeCheck" />
 </RelativeLayout>
