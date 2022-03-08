@@ -91,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
 
                     // Closing cursor.
                     cursor.close();
+
                 }
             }
 
@@ -104,8 +105,8 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this,"Please Enter UserName or Password.",Toast.LENGTH_LONG).show();
 
         }
-
     }
+
 
     // Checking EditText is empty or not.
     public void CheckEditTextStatus(){
@@ -135,13 +136,12 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this,"Login Successful",Toast.LENGTH_LONG).show();
 
             // Going to Dashboard activity after login success message.
-            Intent intent = new Intent(MainActivity.this, DashboardActivity.class);
+            Intent intent = new Intent(MainActivity.this, MainMenuActivity.class);
 
             // Sending Email to Dashboard Activity using intent.
             intent.putExtra(UserEmail, EmailHolder);
 
             startActivity(intent);
-
 
         }
         else {
@@ -151,4 +151,5 @@ public class MainActivity extends AppCompatActivity {
         }
         TempPassword = "NOT_FOUND" ;
     }
+
 }
