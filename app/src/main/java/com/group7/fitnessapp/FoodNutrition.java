@@ -11,7 +11,7 @@ public class FoodNutrition extends Activity {
     @Override
     public void onResume() {
         super.onResume();
-        updateButtonColors();
+        update_button_colors();
     }
 
     @Override
@@ -23,10 +23,18 @@ public class FoodNutrition extends Activity {
         db.addAllMealPlan();
         db.close();
 
-        updateButtonColors();
+        update_button_colors();
     }
 
-    private void updateButtonColors(){
+    public void reset_nutrition(View v){
+        db.open();
+        db.reset_completed();
+        db.close();
+        finish();
+        startActivity(getIntent());
+    }
+
+    private void update_button_colors(){
         ImageView day1 = findViewById(R.id.imageView);
         ImageView day2 = findViewById(R.id.imageView2);
         ImageView day3 = findViewById(R.id.imageView3);
