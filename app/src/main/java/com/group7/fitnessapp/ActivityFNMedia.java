@@ -19,6 +19,7 @@ public class ActivityFNMedia extends Activity {
 
     public void doPlay(View v){
         videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.healtyplate));
+        videoView.setMediaController(new MediaController(this));
         videoView.start();
         videoView.requestFocus();
     }
