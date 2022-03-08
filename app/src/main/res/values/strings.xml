@@ -4,6 +4,7 @@
     <string name="easybtn">Beginners</string>
     <string name="medbtn">Intermediate</string>
     <string name="hardbtn">Hardcore</string>
+    <string name="difficulty">WORKOUTS</string>
 
 
     <string name="fn_label">Food Nutrition</string>

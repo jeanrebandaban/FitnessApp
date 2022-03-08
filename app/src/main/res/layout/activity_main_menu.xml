@@ -44,5 +44,24 @@
         app:layout_constraintHorizontal_bias="0.082"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.361" />
+        app:layout_constraintVertical_bias="0.375" />
+
+    <Button
+        android:id="@+id/difficulty"
+        android:layout_width="155dp"
+        android:layout_height="150dp"
+        android:alpha="0.8"
+        android:background="@drawable/workout"
+        android:onClick="goDifficulty"
+        android:scaleType="fitXY"
+        android:text="@string/difficulty"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
 </androidx.constraintlayout.widget.ConstraintLayout>
