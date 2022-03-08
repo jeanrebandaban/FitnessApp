@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
     tools:context=".MainMenuActivity">
 
 
     <Button
         android:id="@+id/coaching"
-        android:layout_width="166dp"
-        android:layout_height="151dp"
+        android:layout_width="155dp"
+        android:layout_height="150dp"
         android:alpha="0.8"
         android:background="@drawable/coach"
         android:onClick="goCoaching"
@@ -21,27 +22,46 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintHorizontal_bias="0.084"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.587" />
+        app:layout_constraintVertical_bias="0.744" />
 
     <Button
         android:id="@+id/diet"
-        android:layout_width="161dp"
-        android:layout_height="144dp"
+        android:layout_width="155dp"
+        android:layout_height="150dp"
         android:alpha="0.8"
         android:background="@drawable/food"
         android:onClick="goFNMedia"
         android:scaleType="fitXY"
         android:text="@string/fn_label"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintHorizontal_bias="0.082"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.248" />
+        app:layout_constraintVertical_bias="0.375" />
+
+    <Button
+        android:id="@+id/difficulty"
+        android:layout_width="155dp"
+        android:layout_height="150dp"
+        android:alpha="0.8"
+        android:background="@drawable/workout"
+        android:onClick="goDifficulty"
+        android:scaleType="fitXY"
+        android:text="@string/difficulty"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
 </androidx.constraintlayout.widget.ConstraintLayout>
