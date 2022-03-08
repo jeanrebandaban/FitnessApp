@@ -30,8 +30,7 @@
         android:layout_height="0dp"
         android:layout_weight="4"
         android:layout_gravity="center_vertical|center_horizontal"
-        android:foregroundGravity="center"
-        >
+        android:foregroundGravity="center">
 
         <VideoView
             android:id="@+id/vdo"
@@ -55,8 +54,7 @@
         android:layout_weight="0.1"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="10dp"
-
-        android:backgroundTint="@color/black"
+        android:background="@color/black"
         android:textColor="@color/white"
         android:onClick="doPlay"
         android:text="@string/fn_btn_play"
@@ -69,7 +67,7 @@
         android:layout_weight="0.1"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="20dp"
-        android:backgroundTint="@color/black"
+        android:background="@color/black"
         android:textColor="@color/white"
         android:text="@string/fn_btn"
         android:onClick="goNutrition"
