@@ -9,9 +9,10 @@
 
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:scaleType="center"
         android:background="@drawable/btn_color"
-        android:contentDescription="@string/app_name" />
+        android:contentDescription="@string/app_name"
+        android:scaleType="center"
+        tools:ignore="ImageContrastCheck" />
 
     <EditText
         android:id="@+id/tv_dialog"
