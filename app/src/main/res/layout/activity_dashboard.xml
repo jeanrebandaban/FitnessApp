@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg_color"
     tools:context=".DashboardActivity">
 
 
@@ -30,6 +31,7 @@
         android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="36dp"
-        android:id="@+id/button1" />
+        android:id="@+id/button1"
+        android:background="@drawable/btn_color"/>
 
 </RelativeLayout>
