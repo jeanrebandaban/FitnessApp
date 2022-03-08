@@ -13,13 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void goNutrition(View v){
-        Intent i = new Intent(this.getApplicationContext(), FoodNutrition.class);
-        startActivity(i);
-    }
-
-    public void viewDay (View v){
-        Intent i = new Intent(this.getApplicationContext(), ActivityFNViewDay.class);
+    public void goHomeFoodNutrition(View v){
+        Intent i = new Intent(this.getApplicationContext(), ActivityFNMedia.class);
         startActivity(i);
     }
 
@@ -27,5 +22,4 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this.getApplicationContext(), Coaching.class);
         startActivity(i);
     }
-
 }
