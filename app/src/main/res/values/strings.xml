@@ -7,13 +7,13 @@
 
 
     <string name="fn_label">Food Nutrition</string>
-    <string name="fn_day_seven">Day Seven</string>
-    <string name="fn_day_six">Day Six</string>
-    <string name="fn_day_five">Day Five</string>
-    <string name="fn_day_four">Day Four</string>
-    <string name="fn_day_three">Day Three</string>
-    <string name="fn_day_two">Day Two</string>
-    <string name="fn_day_one">Day One</string>
+    <string name="d7_fn">DAY SEVEN</string>
+    <string name="d6_fn">DAY SIX</string>
+    <string name="d5_fn">DAY FIVE</string>
+    <string name="d4_fn">DAY FOUR</string>
+    <string name="d3_fn">DAY THREE</string>
+    <string name="d2_fn">DAY TWO</string>
+    <string name="d1_fn">DAY ONE</string>
     <string name="fn_week_plan">A Week of Healthy Meal Plans</string>
 
     <string name="d1_breakfast">BREAKFAST</string>

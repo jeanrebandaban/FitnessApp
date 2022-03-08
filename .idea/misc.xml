@@ -5,14 +5,20 @@
       <map>
         <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/drawable/dsadada.xml" value="0.1" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/activity_main_menu.xml" value="0.2296195652173913" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/coach_dialog.xml" value="0.259375" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/coach_profile.xml" value="0.259375" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/coach_profile_athletic.xml" value="0.259375" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/coach_profile_build.xml" value="0.259375" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/coach_profile_fitness.xml" value="0.259375" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/coach_profile_health.xml" value="0.259375" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/coach_profile_nutrition.xml" value="0.259375" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/coach_profile_xfit.xml" value="0.259375" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/dientnutrition.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/dimen.xml" value="0.259375" />
-        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/fnviewday.xml" value="0.259375" />
-        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/foodnutrition.xml" value="0.1" />
-        <entry key="..\:/Users/Meska/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/activity_dashboard.xml" value="0.27447916666666666" />
-        <entry key="..\:/Users/Meska/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/activity_login.xml" value="0.27447916666666666" />
-        <entry key="..\:/Users/Meska/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
-        <entry key="..\:/Users/Meska/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/activity_register.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/fn_media.xml" value="0.264" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/fnviewday.xml" value="0.4" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/foodnutrition.xml" value="0.264" />
       </map>
     </option>
   </component>
