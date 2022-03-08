@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:minHeight="30dp"
+        android:textColor="#000"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="30dp"
+        android:textColor="#000"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Mobile Number"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/editUser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editNumber"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColor="#000"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editUser"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/editHeight"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="312dp"
+        android:ems="10"
+        android:hint="Height(cm)"
+        android:inputType="number"
+        android:textColor="#000"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editWeight"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/editPassword"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="180dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Weigth(lb)"
+        android:inputType="number"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/editAge"
+        android:layout_width="151dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/editWeight"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Age"
+        android:inputType="number"
+        android:textColor="#000" />
+
+    <RadioGroup
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="80dp">
+
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:minHeight="40dp"
+            android:onClick="onRadioButtonClicked"
+            android:text="Male"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="0dp"
+            android:minHeight="40dp"
+            android:onClick="onRadioButtonClicked"
+            android:text="Female"
+            tools:ignore="TouchTargetSizeCheck" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="283dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:onClick="onCheckboxClicked"
+        android:text="I have read and agree with this terms and conditions"
+        tools:ignore="OnClick,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="SIGN UP"
+        tools:ignore="TouchTargetSizeCheck" />
+</RelativeLayout>
