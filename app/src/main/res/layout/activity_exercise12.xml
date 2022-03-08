@@ -5,7 +5,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    tools:context=".Exercise4"
+    tools:context=".Exercise12"
     >
 
 
@@ -13,8 +13,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Alt. Toe touch"
         android:textStyle="bold"
-        android:text="Rotating toe touch"
         android:textSize="25dp"
         android:textAllCaps="true"
         android:textColor="@color/black"
@@ -30,7 +30,7 @@
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="300dp"
         android:layout_height="300dp"
-        android:src="@drawable/rotatingtoetouch"
+        android:src="@drawable/alttoetouch"
         android:layout_gravity="center" />
 
     <TextView

@@ -13,7 +13,7 @@ import android.widget.Toast;
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
-public class Exercise7 extends AppCompatActivity {
+public class Exercise14 extends AppCompatActivity {
 
     TextView textView;
     Button startbutton,finishbutton;
@@ -21,7 +21,7 @@ public class Exercise7 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_exercise7);
+        setContentView(R.layout.activity_exercise14);
 
         startbutton = findViewById(R.id.startbutton);
         startbutton.setOnClickListener(new View.OnClickListener() {

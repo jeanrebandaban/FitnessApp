@@ -67,7 +67,7 @@ public class Exercise5 extends AppCompatActivity {
                 textView.setVisibility(View.GONE);
 
                 Toast.makeText(getApplicationContext()
-                        ,"Workout Done, Goodjob!",Toast.LENGTH_LONG).show();
+                        ,"Workout Done, Good job!",Toast.LENGTH_LONG).show();
 
                 finish();
             }

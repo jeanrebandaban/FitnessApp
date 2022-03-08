@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class WorkoutDifficulty extends AppCompatActivity {
 
-    Button easybtn,medbtn;
+    Button easybtn,medbtn,hardbtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +18,7 @@ public class WorkoutDifficulty extends AppCompatActivity {
 
     easybtn = findViewById(R.id.easybtn);
     medbtn = findViewById(R.id.medbtn);
+    hardbtn = findViewById(R.id.hardbtn);
 
     easybtn.setOnClickListener(new View.OnClickListener() {
         @Override
@@ -26,10 +27,19 @@ public class WorkoutDifficulty extends AppCompatActivity {
             startActivity(intent);
         }
     });
+
     medbtn.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
             Intent intent = new Intent(WorkoutDifficulty.this, WorkoutDifficultyMedium.class);
+            startActivity(intent);
+        }
+    });
+
+    hardbtn.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent intent = new Intent(WorkoutDifficulty.this, WorkoutDifficultyHard.class);
             startActivity(intent);
         }
     });
