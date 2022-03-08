@@ -24,6 +24,7 @@
         <activity android:name=".DashboardActivity"/>
         <activity android:name=".FoodNutrition"/>
         <activity android:name=".ActivityFNViewDay"/>
+        <activity android:name=".ActivityFNMedia"/>
 
         <activity android:name=".Coaching"/>
         <activity android:name=".CoachingFood"/>

@@ -1,6 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -8,7 +8,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity">
+    android:background="@color/white"
+    >
 
     <androidx.cardview.widget.CardView
         android:id="@+id/weekPlan"
@@ -25,12 +26,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.042">
 
-        <TextView
-            android:id="@+id/textView"
+        <ImageView
+            android:id="@+id/img_weekPlan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/fn_week_plan" />
+            android:scaleType="fitXY"
+            android:src="@drawable/week"
+            android:contentDescription="@string/imageView" />
 
     </androidx.cardview.widget.CardView>
 
@@ -52,14 +54,13 @@
         android:focusable="true"
         android:onClick="viewDay"
         android:tag="7">
-
-        <TextView
-            android:id="@+id/d7"
+        <ImageView
+            android:id="@+id/imageView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fn_day_seven"
-            android:layout_gravity="center"/>
-
+            android:scaleType="fitXY"
+            android:src="@drawable/day_seven"
+            android:contentDescription="@string/imageView7" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -80,13 +81,13 @@
         android:focusable="true"
         android:onClick="viewDay"
         android:tag="6">
-
-        <TextView
-            android:id="@+id/d6"
+        <ImageView
+            android:id="@+id/imageView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fn_day_six"
-            android:layout_gravity="center"/>
+            android:scaleType="fitXY"
+            android:src="@drawable/day_six"
+            android:contentDescription="@string/imageView6" />
 
     </androidx.cardview.widget.CardView>
 
@@ -108,13 +109,13 @@
         android:focusable="true"
         android:onClick="viewDay"
         android:tag="5">
-
-        <TextView
-            android:id="@+id/d5"
+        <ImageView
+            android:id="@+id/imageView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fn_day_five"
-            android:layout_gravity="center"/>
+            android:scaleType="fitXY"
+            android:src="@drawable/day_five"
+            android:contentDescription="@string/imageView5" />
 
     </androidx.cardview.widget.CardView>
 
@@ -137,12 +138,13 @@
         android:onClick="viewDay"
         android:tag="4">
 
-        <TextView
-            android:id="@+id/d4"
+        <ImageView
+            android:id="@+id/imageView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fn_day_four"
-            android:layout_gravity="center"/>
+            android:scaleType="fitXY"
+            android:src="@drawable/day_four"
+            android:contentDescription="@string/imageView4" />
 
     </androidx.cardview.widget.CardView>
 
@@ -165,12 +167,14 @@
         android:onClick="viewDay"
         android:tag="3">
 
-        <TextView
-            android:id="@+id/d3"
+        <ImageView
+            android:id="@+id/imageView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fn_day_three"
-            android:layout_gravity="center"/>
+            android:scaleType="fitXY"
+            android:src="@drawable/day_three"
+            android:contentDescription="@string/imageView3" />
+
 
     </androidx.cardview.widget.CardView>
 
@@ -193,12 +197,13 @@
         android:onClick="viewDay"
         android:tag="2">
 
-        <TextView
-            android:id="@+id/d2"
+        <ImageView
+            android:id="@+id/imageView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fn_day_two"
-            android:layout_gravity="center"/>
+            android:scaleType="fitXY"
+            android:src="@drawable/day_two"
+            android:contentDescription="@string/imageView2" />
 
     </androidx.cardview.widget.CardView>
 
@@ -221,12 +226,13 @@
         android:onClick="viewDay"
         android:tag="1">
 
-        <TextView
-            android:id="@+id/d1"
+        <ImageView
+            android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fn_day_one"
-            android:layout_gravity="center"/>
+            android:scaleType="fitXY"
+            android:src="@drawable/day_one"
+            android:contentDescription="@string/imageView" />
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
