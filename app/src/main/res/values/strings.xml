@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">FitnessApp</string>
+
+    <string name="easybtn">Beginners</string>
+    <string name="medbtn">Intermediate</string>
+    <string name="hardbtn">Hardcore</string>
+
 </resources>
