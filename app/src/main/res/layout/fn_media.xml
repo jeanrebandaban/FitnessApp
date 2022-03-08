@@ -14,7 +14,7 @@
         android:layout_height="100dp"
         android:fontFamily="sans-serif-light"
         android:paddingTop="15dp"
-        android:text="@string/fn_btn_healthyPlate"
+        android:text="@string/fn_healthy_plate"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="34sp"
