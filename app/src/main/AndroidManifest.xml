@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FitnessApp">
         <activity
-            android:name=".LoginActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +20,6 @@
         </activity>
 
         <activity android:name=".MainMenuActivity"/>
-
         <activity android:name=".RegisterActivity"/>
         <activity android:name=".DashboardActivity"/>
         <activity android:name=".FoodNutrition"/>
