@@ -6,30 +6,42 @@
     android:layout_height="match_parent"
     tools:context=".MainMenuActivity">
 
-    <Button
-        android:id="@+id/diet"
-        android:layout_width="180dp"
-        android:layout_height="50dp"
-        android:text="@string/fn_label"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.692"
-        android:onClick="goFNMedia"/>
 
     <Button
         android:id="@+id/coaching"
-        android:layout_width="180dp"
-        android:layout_height="50dp"
+        android:layout_width="166dp"
+        android:layout_height="151dp"
+        android:alpha="0.8"
+        android:background="@drawable/coach"
         android:onClick="goCoaching"
+        android:scaleType="fitXY"
         android:text="@string/btn_coach"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintHorizontal_bias="0.877"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.572" />
+        app:layout_constraintVertical_bias="0.587" />
 
+    <Button
+        android:id="@+id/diet"
+        android:layout_width="161dp"
+        android:layout_height="144dp"
+        android:alpha="0.8"
+        android:background="@drawable/food"
+        android:onClick="goFNMedia"
+        android:scaleType="fitXY"
+        android:text="@string/fn_label"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.248" />
 </androidx.constraintlayout.widget.ConstraintLayout>
