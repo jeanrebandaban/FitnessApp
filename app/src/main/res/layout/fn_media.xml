@@ -53,10 +53,11 @@
         android:layout_width="169dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.1"
-        android:backgroundTint="@color/black"
-        android:textColor="@color/white"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="10dp"
+
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
         android:onClick="doPlay"
         android:text="@string/fn_btn_play"
         style="?android:attr/buttonBarButtonStyle" />
@@ -66,10 +67,10 @@
         android:layout_width="169dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.1"
-        android:backgroundTint="@color/black"
-        android:textColor="@color/white"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
         android:text="@string/fn_btn"
         android:onClick="goNutrition"
         style="?android:attr/buttonBarButtonStyle" />

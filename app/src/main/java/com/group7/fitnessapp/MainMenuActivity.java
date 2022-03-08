@@ -13,13 +13,8 @@ public class MainMenuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
     }
-    public void goNutrition(View v){
-        Intent i = new Intent(this.getApplicationContext(), FoodNutrition.class);
-        startActivity(i);
-    }
-
-    public void viewDay (View v){
-        Intent i = new Intent(this.getApplicationContext(), ActivityFNViewDay.class);
+    public void goFNMedia(View v){
+        Intent i = new Intent(this.getApplicationContext(), ActivityFNMedia.class);
         startActivity(i);
     }
 
