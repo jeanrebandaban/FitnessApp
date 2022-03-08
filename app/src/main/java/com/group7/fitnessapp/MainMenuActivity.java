@@ -23,4 +23,10 @@ public class MainMenuActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void goDifficulty(View v){
+        Intent i = new Intent(this.getApplicationContext(), WorkoutDifficulty.class);
+        startActivity(i);
+    }
+
+
 }
