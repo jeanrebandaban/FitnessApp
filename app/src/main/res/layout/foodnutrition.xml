@@ -218,7 +218,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/weekPlan"
         app:layout_constraintVertical_bias="0.156"
-        app:cardCornerRadius="2dp"
+        app:cardCornerRadius="4dp"
         app:cardMaxElevation="2dp"
         app:cardPreventCornerOverlap="true"
         app:cardUseCompatPadding="true"
