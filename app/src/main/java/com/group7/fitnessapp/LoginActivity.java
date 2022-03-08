@@ -28,7 +28,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
 
         LogInButton = (Button)findViewById(R.id.buttonLogin);
 
@@ -150,7 +150,5 @@ public class LoginActivity extends AppCompatActivity {
 
         }
         TempPassword = "NOT_FOUND" ;
-
     }
-
 }
