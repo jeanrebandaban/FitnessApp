@@ -18,6 +18,72 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Exercise15"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise14"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise13"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise12"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise11"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise10"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise9"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise8"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise7"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise6"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise5"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise4"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutRest"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise2"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise3"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise1"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutDone"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutDifficultyEasy"
+            android:exported="false"
+            android:parentActivityName=".WorkoutDifficulty" />
+        <activity
+            android:name=".WorkoutDifficultyMedium"
+            android:exported="false"
+            android:parentActivityName=".WorkoutDifficulty" />
+        <activity
+            android:name=".WorkoutDifficultyHard"
+            android:exported="false"
+            android:parentActivityName=".WorkoutDifficulty" />
+        <activity
+            android:name=".WorkoutDifficulty"
+            android:exported="false" />
 
         <activity android:name=".MainMenuActivity"/>
         <activity android:name=".RegisterActivity"/>
