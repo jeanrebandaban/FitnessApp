@@ -1,14 +1,10 @@
 <resources>
     <string name="app_name">FitnessApp</string>
 
-    <string name="imageView">d1</string>
-    <string name="imageView2">d2</string>
-    <string name="imageView3">d3</string>
-    <string name="imageView4">d4</string>
-    <string name="imageView5">d5</string>
-    <string name="imageView6">d6</string>
-    <string name="imageView7">d7</string>
-    <string name="img_weekPlan">title</string>
+    <string name="easybtn">Beginners</string>
+    <string name="medbtn">Intermediate</string>
+    <string name="hardbtn">Hardcore</string>
+
 
     <string name="fn_label">Food Nutrition</string>
     <string name="d7_fn">DAY SEVEN</string>
@@ -69,8 +65,5 @@
     <string name="d7_dinner">DINNER</string>
     <string name="d7_dinner_content">3-ounce serving of baked or grilled salmon\nOne-half cup black beans\nOne cup Swiss chard\nOne cup brown rice\nOne whole wheat dinner roll with a pat of butter\nSparkling water with lemon or lime slice</string>
 
-    <string name="fn_btn_play">Play</string>
-    <string name="fn_btn">Proceed</string>
-    <string name="fn_healthy_plate">HEALTHY PLATE</string>
 
 </resources>
