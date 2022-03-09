@@ -62,9 +62,6 @@ public class RegisterActivity extends AppCompatActivity {
                 // Creating SQLite database if dose n't exists
                 SQLiteDataBaseBuild();
 
-                // Creating SQLite table if dose n't exists.
-                SQLiteTableBuild();
-
                 // Checking EditText is empty or Not.
                 CheckEditTextStatus();
 
