@@ -16,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     Button LogInButton, RegisterButton ;
-    EditText Email, Password ;
+    EditText Email, Password;
     String EmailHolder, PasswordHolder;
     Boolean EditTextEmptyHolder;
     SQLiteDatabase sqLiteDatabaseObj;
@@ -39,17 +39,23 @@ public class MainActivity extends AppCompatActivity {
 
         sqLiteHelper = new DatabaseHelper(this);
 
+
+
         //Adding click listener to log in button.
         LogInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                // Calling EditText is empty or no method.
-                CheckEditTextStatus();
+                    if(Email.getText().toString().equals("group7") && Password.getText().toString().equals("admin")){
 
-                // Calling login method.
-                LoginFunction();
+                        //correct password
+                    }else{
+                        //wrong password
+                        Toast.makeText(MainActivity.this,"Please Enter Correct UserName or Password.",Toast.LENGTH_LONG).show();
+                    }
 
+                Intent intent = new Intent(MainActivity.this, MainMenuActivity.class);
+                startActivity(intent);
 
             }
         });
@@ -87,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
                     cursor.moveToFirst();
 
                     // Storing Password associated with entered email.
-                    TempPassword = cursor.getString(cursor.getColumnIndex(DatabaseHelper.Table_Column_3_Password));
+                    TempPassword = cursor.getString(cursor.getColumnIndex(DatabaseHelper.Table_Column_5_Password));
 
                     // Closing cursor.
                     cursor.close();
@@ -152,8 +158,4 @@ public class MainActivity extends AppCompatActivity {
         TempPassword = "NOT_FOUND" ;
     }
 
-    public void goWorkout(View v){
-        Intent i = new Intent(this.getApplicationContext(), WorkoutDifficulty.class);
-        startActivity(i);
-    }
 }

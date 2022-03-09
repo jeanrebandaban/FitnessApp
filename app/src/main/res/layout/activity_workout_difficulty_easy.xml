@@ -882,6 +882,7 @@
                                 android:layout_width="300dp"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
+                                android:layout_marginEnd="25dp"
                                 android:background="@drawable/donebtn"
                                 android:fontFamily="monospace"
                                 android:text="done"

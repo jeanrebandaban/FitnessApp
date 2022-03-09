@@ -11,11 +11,12 @@
         android:id="@+id/textView"
         android:layout_width="306dp"
         android:layout_height="100dp"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="24dp"
         android:text="CHOOSE YOUR DIFFICULTY"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="35dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -25,7 +26,7 @@
 
     <Button
         android:id="@+id/easybtn"
-        android:layout_width="355dp"
+        android:layout_width="330dp"
         android:layout_height="125dp"
         android:background="@drawable/easybtnbg"
         android:text="@string/easybtn"
@@ -39,7 +40,7 @@
 
     <Button
         android:id="@+id/medbtn"
-        android:layout_width="355dp"
+        android:layout_width="330dp"
         android:layout_height="125dp"
         android:background="@drawable/medbtnbg"
         android:text="@string/medbtn"
@@ -53,7 +54,7 @@
 
     <Button
         android:id="@+id/hardbtn"
-        android:layout_width="355dp"
+        android:layout_width="330dp"
         android:layout_height="125dp"
         android:background="@drawable/hardbtnbg"
         android:text="@string/hardbtn"
