@@ -19,12 +19,13 @@ public class ActivityFNMedia extends Activity {
 
     public void doPlay(View v){
         videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.healtyplate));
+        videoView.setMediaController(new MediaController(this));
         videoView.start();
         videoView.requestFocus();
     }
 
     public void goNutrition(View v){
-        Intent i = new Intent(this.getApplicationContext(), FoodNutrition.class);
+        Intent i = new Intent(this.getApplicationContext(), ActivityFoodNutrition.class);
         startActivity(i);
     }
 }

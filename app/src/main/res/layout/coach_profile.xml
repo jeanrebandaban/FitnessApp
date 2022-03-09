@@ -24,7 +24,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="160dp"
+        android:layout_height="150dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,7 +34,7 @@
         <Button
             android:id="@+id/btn_coach1"
             android:layout_width="206dp"
-            android:layout_height="150dp"
+            android:layout_height="145dp"
             android:layout_weight="1"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
@@ -47,7 +47,7 @@
         <Button
             android:id="@+id/btn_coach2"
             android:layout_width="206dp"
-            android:layout_height="150dp"
+            android:layout_height="145dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
@@ -60,9 +60,9 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="160dp"
+        android:layout_height="150dp"
+
         android:orientation="horizontal"
-        android:paddingTop="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -71,7 +71,7 @@
         <Button
             android:id="@+id/btn_coach3"
             android:layout_width="206dp"
-            android:layout_height="150dp"
+            android:layout_height="145dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
@@ -84,7 +84,7 @@
         <Button
             android:id="@+id/btn_coach4"
             android:layout_width="206dp"
-            android:layout_height="150dp"
+            android:layout_height="145dp"
             android:layout_weight="1"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
@@ -97,9 +97,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="160dp"
+        android:layout_height="150dp"
         android:orientation="horizontal"
-        android:paddingTop="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -108,7 +107,7 @@
         <Button
             android:id="@+id/btn_coach5"
             android:layout_width="206dp"
-            android:layout_height="150dp"
+            android:layout_height="145dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
@@ -121,7 +120,7 @@
         <Button
             android:id="@+id/btn_coach6"
             android:layout_width="206dp"
-            android:layout_height="150dp"
+            android:layout_height="145dp"
             android:layout_weight="1"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"

@@ -5,6 +5,9 @@
     <string name="medbtn">Intermediate</string>
     <string name="hardbtn">Hardcore</string>
     <string name="difficulty">WORKOUTS</string>
+    <string name="feedback">REVIEWS</string>
+
+    <string name="tv_main_menu">MAIN MENU</string>
 
 
     <string name="imageView">d1</string>
