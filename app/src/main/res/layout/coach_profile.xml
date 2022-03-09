@@ -24,7 +24,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="160dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,7 +34,7 @@
         <Button
             android:id="@+id/btn_coach1"
             android:layout_width="206dp"
-            android:layout_height="200dp"
+            android:layout_height="150dp"
             android:layout_weight="1"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
@@ -47,7 +47,7 @@
         <Button
             android:id="@+id/btn_coach2"
             android:layout_width="206dp"
-            android:layout_height="200dp"
+            android:layout_height="150dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
@@ -60,7 +60,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="160dp"
         android:orientation="horizontal"
         android:paddingTop="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -71,19 +71,20 @@
         <Button
             android:id="@+id/btn_coach3"
             android:layout_width="206dp"
-            android:layout_height="200dp"
-            android:layout_weight="1"
+            android:layout_height="150dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:text="@string/tv_coach3"
-            android:onClick="onCoach3"
+            android:layout_weight="1"
             android:background="@drawable/btn_color"
+            android:onClick="onCoach3"
+            android:text="@string/tv_coach3"
             android:textColor="@color/white"
             tools:ignore="ButtonStyle" />
+
         <Button
             android:id="@+id/btn_coach4"
             android:layout_width="206dp"
-            android:layout_height="200dp"
+            android:layout_height="150dp"
             android:layout_weight="1"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
@@ -96,7 +97,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="160dp"
         android:orientation="horizontal"
         android:paddingTop="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -107,20 +108,20 @@
         <Button
             android:id="@+id/btn_coach5"
             android:layout_width="206dp"
-            android:layout_height="200dp"
-            android:layout_weight="1"
+            android:layout_height="150dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:text="@string/tv_coach5"
-            android:onClick="onCoach5"
+            android:layout_weight="1"
             android:background="@drawable/btn_color"
+            android:onClick="onCoach5"
+            android:text="@string/tv_coach5"
             android:textColor="@color/white"
             tools:ignore="ButtonStyle" />
 
         <Button
             android:id="@+id/btn_coach6"
             android:layout_width="206dp"
-            android:layout_height="200dp"
+            android:layout_height="150dp"
             android:layout_weight="1"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"

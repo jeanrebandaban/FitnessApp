@@ -82,8 +82,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5"
-        android:layout_gravity="center"
-        android:backgroundTint="@color/black">
+        android:layout_gravity="center">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -125,8 +124,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.933"
-        android:layout_gravity="center"
-        android:backgroundTint="@color/black">
+        android:layout_gravity="center">
 
         <LinearLayout
             android:layout_width="match_parent"
