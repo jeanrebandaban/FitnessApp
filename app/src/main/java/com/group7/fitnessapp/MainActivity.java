@@ -16,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     Button LogInButton, RegisterButton ;
-    EditText Email, Password ;
+    EditText Email, Password;
     String EmailHolder, PasswordHolder;
     Boolean EditTextEmptyHolder;
     SQLiteDatabase sqLiteDatabaseObj;
@@ -39,17 +39,23 @@ public class MainActivity extends AppCompatActivity {
 
         sqLiteHelper = new DatabaseHelper(this);
 
+
+
         //Adding click listener to log in button.
         LogInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                // Calling EditText is empty or no method.
-                CheckEditTextStatus();
+                    if(Email.getText().toString().equals("group7") && Password.getText().toString().equals("admin")){
 
-                // Calling login method.
-                LoginFunction();
+                        //correct password
+                    }else{
+                        //wrong password
+                        Toast.makeText(MainActivity.this,"Please Enter Correct UserName or Password.",Toast.LENGTH_LONG).show();
+                    }
 
+                Intent intent = new Intent(MainActivity.this, MainMenuActivity.class);
+                startActivity(intent);
 
             }
         });
