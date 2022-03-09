@@ -152,4 +152,9 @@ public class MainActivity extends AppCompatActivity {
         TempPassword = "NOT_FOUND" ;
     }
 
+    public void goWorkout(View v){
+        Intent i = new Intent(this.getApplicationContext(), WorkoutDifficulty.class);
+        startActivity(i);
+    }
+
 }

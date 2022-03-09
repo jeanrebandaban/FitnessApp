@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,16 +9,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity">
+    android:background="@drawable/bg_color"
+    >
 
     <androidx.cardview.widget.CardView
         android:id="@+id/weekPlan"
-        android:layout_width="364dp"
+        android:layout_width="409dp"
         android:layout_height="67dp"
-        app:cardCornerRadius="2dp"
-        app:cardMaxElevation="2dp"
-        app:cardPreventCornerOverlap="true"
-        app:cardUseCompatPadding="true"
         app:layout_constraintBottom_toTopOf="@+id/day1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
@@ -25,19 +23,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.042">
 
-        <TextView
-            android:id="@+id/textView"
+        <ImageView
+            android:id="@+id/img_weekPlan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/fn_week_plan" />
+            android:contentDescription="@string/imageView"
+            android:scaleType="fitXY"
+            android:src="@drawable/week"
+            tools:ignore="ImageContrastCheck" />
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/day7"
-        android:layout_width="364dp"
-        android:layout_height="67dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -53,19 +53,20 @@
         android:onClick="viewDay"
         android:tag="7">
 
-        <TextView
-            android:id="@+id/d7"
+        <ImageView
+            android:id="@+id/imageView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fn_day_seven"
-            android:layout_gravity="center"/>
-
+            android:contentDescription="@string/imageView7"
+            android:scaleType="fitXY"
+            android:src="@drawable/day_seven"
+            tools:ignore="ImageContrastCheck" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/day6"
-        android:layout_width="364dp"
-        android:layout_height="67dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:clickable="true"
         app:layout_constraintBottom_toTopOf="@+id/day7"
         app:layout_constraintEnd_toEndOf="parent"
@@ -81,19 +82,21 @@
         android:onClick="viewDay"
         android:tag="6">
 
-        <TextView
-            android:id="@+id/d6"
+        <ImageView
+            android:id="@+id/imageView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fn_day_six"
-            android:layout_gravity="center"/>
+            android:contentDescription="@string/imageView6"
+            android:scaleType="fitXY"
+            android:src="@drawable/day_six"
+            tools:ignore="ImageContrastCheck" />
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/day5"
-        android:layout_width="364dp"
-        android:layout_height="67dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:clickable="true"
         app:layout_constraintBottom_toTopOf="@+id/day6"
         app:layout_constraintEnd_toEndOf="parent"
@@ -109,19 +112,21 @@
         android:onClick="viewDay"
         android:tag="5">
 
-        <TextView
-            android:id="@+id/d5"
+        <ImageView
+            android:id="@+id/imageView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fn_day_five"
-            android:layout_gravity="center"/>
+            android:contentDescription="@string/imageView5"
+            android:scaleType="fitXY"
+            android:src="@drawable/day_five"
+            tools:ignore="ImageContrastCheck" />
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/day4"
-        android:layout_width="364dp"
-        android:layout_height="67dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:clickable="true"
         app:layout_constraintBottom_toTopOf="@+id/day5"
         app:layout_constraintEnd_toEndOf="parent"
@@ -137,19 +142,21 @@
         android:onClick="viewDay"
         android:tag="4">
 
-        <TextView
-            android:id="@+id/d4"
+        <ImageView
+            android:id="@+id/imageView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fn_day_four"
-            android:layout_gravity="center"/>
+            android:contentDescription="@string/imageView4"
+            android:scaleType="fitXY"
+            android:src="@drawable/day_four"
+            tools:ignore="ImageContrastCheck" />
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/day3"
-        android:layout_width="364dp"
-        android:layout_height="67dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:clickable="true"
         app:layout_constraintBottom_toTopOf="@+id/day4"
         app:layout_constraintEnd_toEndOf="parent"
@@ -165,19 +172,22 @@
         android:onClick="viewDay"
         android:tag="3">
 
-        <TextView
-            android:id="@+id/d3"
+        <ImageView
+            android:id="@+id/imageView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fn_day_three"
-            android:layout_gravity="center"/>
+            android:contentDescription="@string/imageView3"
+            android:scaleType="fitXY"
+            android:src="@drawable/day_three"
+            tools:ignore="ImageContrastCheck" />
+
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/day2"
-        android:layout_width="364dp"
-        android:layout_height="67dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:clickable="true"
         app:layout_constraintBottom_toTopOf="@+id/day3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -193,40 +203,45 @@
         android:onClick="viewDay"
         android:tag="2">
 
-        <TextView
-            android:id="@+id/d2"
+        <ImageView
+            android:id="@+id/imageView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fn_day_two"
-            android:layout_gravity="center"/>
+            android:contentDescription="@string/imageView2"
+            android:scaleType="fitXY"
+            android:src="@drawable/day_two"
+            tools:ignore="ImageContrastCheck,ImageContrastCheck" />
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/day1"
-        android:layout_width="364dp"
-        android:layout_height="67dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:clickable="true"
+        android:focusable="true"
+        android:onClick="viewDay"
+        android:tag="1"
+        app:cardCornerRadius="4dp"
+        app:cardMaxElevation="2dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
         app:layout_constraintBottom_toTopOf="@+id/day2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/weekPlan"
         app:layout_constraintVertical_bias="0.156"
-        app:cardCornerRadius="2dp"
-        app:cardMaxElevation="2dp"
-        app:cardPreventCornerOverlap="true"
-        app:cardUseCompatPadding="true"
-        android:focusable="true"
-        android:onClick="viewDay"
-        android:tag="1">
+        tools:ignore="DuplicateSpeakableTextCheck">
 
-        <TextView
-            android:id="@+id/d1"
+        <ImageView
+            android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fn_day_one"
-            android:layout_gravity="center"/>
+            android:contentDescription="@string/imageView"
+            android:scaleType="fitXY"
+            android:src="@drawable/day_one"
+            tools:ignore="ImageContrastCheck" />
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

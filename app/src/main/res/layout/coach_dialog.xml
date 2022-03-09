@@ -9,9 +9,10 @@
 
         android:layout_width="match_parent"
         android:layout_height="64dp"
+        android:background="@drawable/btn_color"
+        android:contentDescription="@string/app_name"
         android:scaleType="center"
-        android:background="#000"
-        android:contentDescription="@string/app_name" />
+        tools:ignore="ImageContrastCheck" />
 
     <EditText
         android:id="@+id/tv_dialog"
@@ -39,7 +40,7 @@
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="@color/black"
+            android:background="@drawable/btn_color"
             android:textColor="@color/white"
             android:layout_marginStart="50dp"
             android:layout_marginEnd="20dp"
@@ -51,7 +52,7 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="@color/black"
+            android:background="@drawable/btn_color"
             android:textColor="@color/white"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="50dp"
