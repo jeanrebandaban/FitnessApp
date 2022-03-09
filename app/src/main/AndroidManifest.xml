@@ -99,6 +99,10 @@
         <activity android:name=".CoachingAthletic"/>
         <activity android:name=".CoachingXfit"/>
         <activity android:name=".CoachingBuild"/>
+        
+        <activity android:name=".FeedbackList"/>
+        <activity android:name=".ReviewMain"/>
+        <activity android:name=".ReviewMenu"/>
     </application>
 
 </manifest>
