@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
                     if(Email.getText().toString().equals("group7") && Password.getText().toString().equals("admin")){
                         Intent intent = new Intent(MainActivity.this, MainMenuActivity.class);
+                        Toast.makeText(MainActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
                         startActivity(intent);
                         //correct password
                     }else{
