@@ -28,5 +28,8 @@ public class MainMenuActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-
+    public void goFeedback(View v){
+        Intent i = new Intent(this.getApplicationContext(), ReviewMenu.class);
+        startActivity(i);
+    }
 }
