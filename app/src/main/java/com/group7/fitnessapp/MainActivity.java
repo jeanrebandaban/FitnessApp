@@ -47,15 +47,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                     if(Email.getText().toString().equals("group7") && Password.getText().toString().equals("admin")){
-
+                        Intent intent = new Intent(MainActivity.this, MainMenuActivity.class);
+                        startActivity(intent);
                         //correct password
                     }else{
                         //wrong password
                         Toast.makeText(MainActivity.this,"Please Enter Correct UserName or Password.",Toast.LENGTH_LONG).show();
                     }
-
-                Intent intent = new Intent(MainActivity.this, MainMenuActivity.class);
-                startActivity(intent);
 
             }
         });
