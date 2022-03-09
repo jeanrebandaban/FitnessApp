@@ -108,11 +108,13 @@ public class MainActivity extends AppCompatActivity {
 
             // Calling method to check final result ..
             CheckFinalResult();
+
         }
         else {
 
             //If any of login EditText empty then this block will be executed.
             Toast.makeText(MainActivity.this,"Please Enter UserName or Password.",Toast.LENGTH_LONG).show();
+
         }
     }
 

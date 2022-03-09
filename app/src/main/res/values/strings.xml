@@ -5,6 +5,9 @@
     <string name="medbtn">Intermediate</string>
     <string name="hardbtn">Hardcore</string>
     <string name="difficulty">WORKOUTS</string>
+    <string name="feedback">REVIEWS</string>
+
+    <string name="tv_main_menu">MAIN MENU</string>
 
 
     <string name="imageView">d1</string>
@@ -78,4 +81,16 @@
     <string name="fn_btn_play">Play</string>
     <string name="fn_btn_next">Next</string>
     <string name="fn_healthy_plate">HEALTHY PLATE</string>
+
+    <string name="rating_tb">Enjoying the app so far? Leave us a feedback!</string>
+    <string name="rating_main">Submit a Feedback</string>
+    <string name="review_btn">Reviews</string>
+
+    <string name="lbl_list_view">Reviews</string>
+    <string name="btn_back">Go Back</string>
+
+    <string name="rating_title">Leave us a Feedback!</string>
+    <string name="rating_box">Tell us about your experience</string>
+    <string name="rating_bar">Rating bar</string>
+    <string name="submit_button">Submit</string>
 </resources>

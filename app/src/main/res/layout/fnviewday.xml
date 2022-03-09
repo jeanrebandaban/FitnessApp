@@ -152,5 +152,19 @@
             android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
 
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="169dp"
+        android:layout_gravity="center|bottom"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_color"
+        android:textColor="@color/white"
+        android:onClick="mark_done"
+        android:text="DONE"
+        style="?android:attr/buttonBarButtonStyle" />
+
 </LinearLayout>
 </ScrollView>

@@ -88,7 +88,7 @@
         <activity android:name=".MainMenuActivity"/>
         <activity android:name=".RegisterActivity"/>
         <activity android:name=".DashboardActivity"/>
-        <activity android:name=".FoodNutrition"/>
+        <activity android:name=".ActivityFoodNutrition"/>
         <activity android:name=".ActivityFNViewDay"/>
         <activity android:name=".ActivityFNMedia"/>
 
@@ -99,6 +99,10 @@
         <activity android:name=".CoachingAthletic"/>
         <activity android:name=".CoachingXfit"/>
         <activity android:name=".CoachingBuild"/>
+        
+        <activity android:name=".FeedbackList"/>
+        <activity android:name=".ReviewMain"/>
+        <activity android:name=".ReviewMenu"/>
     </application>
 
 </manifest>
