@@ -41,10 +41,16 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        //Adding click listener to log in button.
+        //Adding onClick listener to log in button.
         LogInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                // Calling EditText is empty or no method.
+                CheckEditTextStatus();
+
+                // Calling login method.
+                LoginFunction();
 
                     if(Email.getText().toString().equals("group7") && Password.getText().toString().equals("admin")){
 
@@ -56,11 +62,10 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent intent = new Intent(MainActivity.this, MainMenuActivity.class);
                 startActivity(intent);
-
             }
         });
 
-        // Adding click listener to register button.
+        // Adding click listener to sign-up button.
         RegisterButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -103,13 +108,11 @@ public class MainActivity extends AppCompatActivity {
 
             // Calling method to check final result ..
             CheckFinalResult();
-
         }
         else {
 
             //If any of login EditText empty then this block will be executed.
             Toast.makeText(MainActivity.this,"Please Enter UserName or Password.",Toast.LENGTH_LONG).show();
-
         }
     }
 
