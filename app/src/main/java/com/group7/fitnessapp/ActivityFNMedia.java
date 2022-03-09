@@ -25,7 +25,7 @@ public class ActivityFNMedia extends Activity {
     }
 
     public void goNutrition(View v){
-        Intent i = new Intent(this.getApplicationContext(), FoodNutrition.class);
+        Intent i = new Intent(this.getApplicationContext(), ActivityFoodNutrition.class);
         startActivity(i);
     }
 }

@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class FoodNutrition extends Activity {
+public class ActivityFoodNutrition extends Activity {
     private MealPlanDBase db;
     @Override
     public void onResume() {
