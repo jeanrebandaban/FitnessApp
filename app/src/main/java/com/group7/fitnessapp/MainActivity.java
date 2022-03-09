@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
                     cursor.moveToFirst();
 
                     // Storing Password associated with entered email.
-                    TempPassword = cursor.getString(cursor.getColumnIndex(DatabaseHelper.Table_Column_3_Password));
+                    TempPassword = cursor.getString(cursor.getColumnIndex(DatabaseHelper.Table_Column_5_Password));
 
                     // Closing cursor.
                     cursor.close();

@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.EditText;
 import android.widget.CheckBox;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,9 +22,10 @@ public class RegisterActivity extends AppCompatActivity {
     EditText Name, Email, Number, User, Password, Height, Weight, Age;
     Button SignUp;
     CheckBox terms;
+    RadioGroup Sex;
     RadioButton Male, Female;
     String NameHolder, EmailHolder, NumberHolder, UserHolder, PasswordHolder, HeightHolder, WeightHolder, AgeHolder;
-    Boolean EditTextEmptyHolder, checked;
+    Boolean EditTextEmptyHolder;
     SQLiteDatabase sqLiteDatabaseObj;
     String SQLiteDataBaseQueryHolder;
     DatabaseHelper sqLiteHelper;
@@ -45,6 +47,7 @@ public class RegisterActivity extends AppCompatActivity {
         Height = (EditText)findViewById(R.id.editHeight);
         Weight = (EditText)findViewById(R.id.editWeight);
         Age = (EditText)findViewById(R.id.editAge);
+        Sex = (RadioGroup)findViewById(R.id.sex);
         Male = (RadioButton)findViewById(R.id.radioMale);
         Female = (RadioButton)findViewById(R.id.radioFemale);
         terms = (CheckBox)findViewById(R.id.checkBox);
@@ -87,7 +90,7 @@ public class RegisterActivity extends AppCompatActivity {
     // SQLite table build method.
     public void SQLiteTableBuild() {
 
-        sqLiteDatabaseObj.execSQL("CREATE TABLE IF NOT EXISTS " + DatabaseHelper.TABLE_NAME + "(" + DatabaseHelper.Table_Column_ID + " PRIMARY KEY AUTOINCREMENT NOT NULL, " + DatabaseHelper.Table_Column_1_Name + " VARCHAR, " + DatabaseHelper.Table_Column_2_Email + " VARCHAR, " + DatabaseHelper.Table_Column_3_Password + " VARCHAR);");
+        sqLiteDatabaseObj.execSQL("CREATE TABLE IF NOT EXISTS " + DatabaseHelper.TABLE_NAME + "(" + DatabaseHelper.Table_Column_ID + " PRIMARY KEY AUTOINCREMENT NOT NULL, " + DatabaseHelper.Table_Column_1_Name + " VARCHAR, " + DatabaseHelper.Table_Column_2_Email + " VARCHAR, " +  DatabaseHelper.Table_Column_3_Number + " VARCHAR, " + DatabaseHelper.Table_Column_4_User + " VARCHAR, " + DatabaseHelper.Table_Column_5_Password + " VARCHAR, " + DatabaseHelper.Table_Column_6_Weight + " VARCHAR, " + DatabaseHelper.Table_Column_7_Height + " VARCHAR, " + DatabaseHelper.Table_Column_8_Age + " VARCHAR, " + DatabaseHelper.Table_Column_9_Sex + " VARCHAR);");
 
     }
 
@@ -124,32 +127,34 @@ public class RegisterActivity extends AppCompatActivity {
     public void onRadioButtonClicked(View view) {
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
-        String str="";
+        String sex="";
 
         // Check which radio button was clicked
         switch(view.getId()) {
             case R.id.radioMale:
                 if (checked)
-                    str = "Male";
+                    sex = "Male";
                 // Male
                 break;
             case R.id.radioFemale:
                 if (checked)
-                    str = "Female";
+                    sex = "Female";
                 // Female
                 break;
         }
-        Toast.makeText(getApplicationContext(), str, Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), sex, Toast.LENGTH_SHORT).show();
     }
 
 
     public void onCheckboxClicked(View view) {
-        String terms = "";
         boolean checked = ((CheckBox) view).isChecked();
+        String terms = "";
 
         if(checked)
             terms = "Terms Accepted";
         else terms = "Terms Not Accepted";
+
+        Toast.makeText(getApplicationContext(), terms, Toast.LENGTH_SHORT).show();
     }
 
     // Empty edittext after done inserting process method.
@@ -247,4 +252,5 @@ public class RegisterActivity extends AppCompatActivity {
         F_Result = "Not_Found" ;
 
     }
+
 }

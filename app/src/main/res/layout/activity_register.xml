@@ -120,6 +120,7 @@
         android:textColor="#000" />
 
     <RadioGroup
+        android:id="@+id/sex"
         android:layout_width="110dp"
         android:layout_height="100dp"
         android:layout_alignParentEnd="true"

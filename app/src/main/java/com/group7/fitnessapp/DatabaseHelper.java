@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
 
-    static String DATABASE_NAME="UserDataBase";
+    public static final String DATABASE_NAME="DataTable";
 
     public static final String TABLE_NAME="UserTable";
 
@@ -17,7 +17,20 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     public static final String Table_Column_2_Email="email";
 
-    public static final String Table_Column_3_Password="password";
+    public static final String Table_Column_3_Number="number";
+
+    public static final String Table_Column_4_User="user";
+
+    public static final String Table_Column_5_Password="password";
+
+    public static final String Table_Column_6_Weight="weight";
+
+    public static final String Table_Column_7_Height="height";
+
+    public static final String Table_Column_8_Age="age";
+
+    public static final String Table_Column_9_Sex="sex";
+
 
     public DatabaseHelper(Context context) {
 
@@ -28,7 +41,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase database) {
 
-        String CREATE_TABLE="CREATE TABLE IF NOT EXISTS "+TABLE_NAME+" ("+Table_Column_ID+" INTEGER PRIMARY KEY, "+Table_Column_1_Name+" VARCHAR, "+Table_Column_2_Email+" VARCHAR, "+Table_Column_3_Password+" VARCHAR)";
+        String CREATE_TABLE="CREATE TABLE IF NOT EXISTS "+TABLE_NAME+" ("+Table_Column_ID+" INTEGER PRIMARY KEY, "+Table_Column_1_Name+" VARCHAR, "+Table_Column_2_Email+" VARCHAR, "+Table_Column_5_Password+" VARCHAR)";
         database.execSQL(CREATE_TABLE);
 
     }
