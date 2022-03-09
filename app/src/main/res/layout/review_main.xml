@@ -8,7 +8,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context=".ReviewMain">
+    tools:context=".ReviewMain"
+    android:background="@drawable/bg_color">
 
     <TextView
         android:id="@+id/ratingtitle"
@@ -16,6 +17,8 @@
         android:layout_height="wrap_content"
         android:text="@string/rating_title"
         android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
         android:backgroundTint="#0000"/>
 
     <EditText
@@ -43,12 +46,15 @@
 
         <Button
             android:id="@+id/ratingbutton"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="110dp"
             android:text="@string/submit_button"
             android:layout_centerHorizontal="true"
-            android:onClick="doSubmit" />
+            android:onClick="doSubmit"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn_color"/>
 
     </RelativeLayout>
 
