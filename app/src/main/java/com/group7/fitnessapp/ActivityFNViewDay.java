@@ -1,10 +1,12 @@
 package com.group7.fitnessapp;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class ActivityFNViewDay extends Activity {
     private MealPlanDBase db;
@@ -79,5 +81,12 @@ public class ActivityFNViewDay extends Activity {
         db.open();
         db.mark_complete(day);
         db.close();
+        Context context = getApplicationContext();
+        CharSequence text = "Congratulations! You've completed day " + day + ".";
+        int duration = Toast.LENGTH_SHORT;
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
+        finish();
     }
+
 }

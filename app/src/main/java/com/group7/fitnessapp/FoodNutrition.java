@@ -54,6 +54,24 @@ public class FoodNutrition extends Activity {
         if(day1_status.equals("true")){
             day1.setImageResource(R.drawable.day_one_done);
         }
+        if(day2_status.equals("true")){
+            day2.setImageResource(R.drawable.day_two_done);
+        }
+        if(day3_status.equals("true")){
+            day3.setImageResource(R.drawable.day_three_done);
+        }
+        if(day4_status.equals("true")){
+            day4.setImageResource(R.drawable.day_four_done);
+        }
+        if(day5_status.equals("true")){
+            day5.setImageResource(R.drawable.day_five_done);
+        }
+        if(day6_status.equals("true")){
+            day6.setImageResource(R.drawable.day_six_done);
+        }
+        if(day7_status.equals("true")){
+            day7.setImageResource(R.drawable.day_seven_done);
+        }
     }
 
     private String getMealPlanStatus(String day){

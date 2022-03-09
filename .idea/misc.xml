@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/drawable/dsadada.xml" value="0.1" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/activity_main_menu.xml" value="0.2296195652173913" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/activity_main_menu.xml" value="0.264" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/activity_workout_difficulty.xml" value="0.1171875" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/coach_dialog.xml" value="0.259375" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/coach_profile.xml" value="0.259375" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/coach_profile_athletic.xml" value="0.259375" />
@@ -17,8 +19,8 @@
         <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/dientnutrition.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/dimen.xml" value="0.259375" />
         <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/fn_media.xml" value="0.264" />
-        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/fnviewday.xml" value="0.4" />
-        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/foodnutrition.xml" value="0.264" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/fnviewday.xml" value="0.176" />
+        <entry key="..\:/Users/Jean/AndroidStudioProjects/FitnessApp/app/src/main/res/layout/foodnutrition.xml" value="0.1" />
       </map>
     </option>
   </component>
