@@ -50,7 +50,6 @@ public class MealPlanDBase {
     public MealPlanDBase(Context c)
     {
         context = c;
-
     }
 
     public MealPlanDBase open() throws SQLException{
@@ -65,51 +64,51 @@ public class MealPlanDBase {
     public void addAllMealPlan(){
         ContentValues day1 = new ContentValues();
         day1.put(K_DAY, "1");
-        day1.put(K_BREAKFAST, R.string.d1_bf_content);
-        day1.put(K_LUNCH, R.string.d1_lunch_content);
-        day1.put(K_DINNER, R.string.d1_dinner_content);
+        day1.put(K_BREAKFAST, context.getString(R.string.d1_bf_content));
+        day1.put(K_LUNCH, context.getString(R.string.d1_lunch_content));
+        day1.put(K_DINNER, context.getString(R.string.d1_dinner_content));
         day1.put(K_COMPLETED, "false");
 
         ContentValues day2 = new ContentValues();
         day2.put(K_DAY, "2");
-        day2.put(K_BREAKFAST, R.string.d2_bf_content);
-        day2.put(K_LUNCH, R.string.d2_lunch_content);
-        day2.put(K_DINNER, R.string.d2_dinner_content);
+        day2.put(K_BREAKFAST, context.getString(R.string.d2_bf_content));
+        day2.put(K_LUNCH, context.getString(R.string.d2_lunch_content));
+        day2.put(K_DINNER, context.getString(R.string.d2_dinner_content));
         day2.put(K_COMPLETED, "false");
 
         ContentValues day3 = new ContentValues();
         day3.put(K_DAY, "3");
-        day3.put(K_BREAKFAST, R.string.d3_bf_content);
-        day3.put(K_LUNCH, R.string.d3_lunch_content);
-        day3.put(K_DINNER, R.string.d3_dinner_content);
+        day3.put(K_BREAKFAST, context.getString(R.string.d3_bf_content));
+        day3.put(K_LUNCH, context.getString(R.string.d3_lunch_content));
+        day3.put(K_DINNER, context.getString(R.string.d3_dinner_content));
         day3.put(K_COMPLETED, "false");
 
         ContentValues day4 = new ContentValues();
         day4.put(K_DAY, "4");
-        day4.put(K_BREAKFAST, R.string.d4_bf_content);
-        day4.put(K_LUNCH, R.string.d4_lunch_content);
-        day4.put(K_DINNER, R.string.d4_dinner_content);
+        day4.put(K_BREAKFAST, context.getString(R.string.d4_bf_content));
+        day4.put(K_LUNCH, context.getString(R.string.d4_lunch_content));
+        day4.put(K_DINNER, context.getString(R.string.d4_dinner_content));
         day4.put(K_COMPLETED, "false");
 
         ContentValues day5 = new ContentValues();
         day5.put(K_DAY, "5");
-        day5.put(K_BREAKFAST, R.string.d5_bf_content);
-        day5.put(K_LUNCH, R.string.d5_lunch_content);
-        day5.put(K_DINNER, R.string.d5_dinner_content);
+        day5.put(K_BREAKFAST, context.getString(R.string.d5_bf_content));
+        day5.put(K_LUNCH, context.getString(R.string.d5_lunch_content));
+        day5.put(K_DINNER, context.getString(R.string.d5_dinner_content));
         day5.put(K_COMPLETED, "false");
 
         ContentValues day6 = new ContentValues();
         day6.put(K_DAY, "6");
-        day6.put(K_BREAKFAST, R.string.d6_bf_content);
-        day6.put(K_LUNCH, R.string.d6_lunch_content);
-        day6.put(K_DINNER, R.string.d6_dinner_content);
+        day6.put(K_BREAKFAST, context.getString(R.string.d6_bf_content));
+        day6.put(K_LUNCH, context.getString(R.string.d6_lunch_content));
+        day6.put(K_DINNER, context.getString(R.string.d6_dinner_content));
         day6.put(K_COMPLETED, "false");
 
         ContentValues day7 = new ContentValues();
         day7.put(K_DAY, "7");
-        day7.put(K_BREAKFAST, R.string.d7_bf_content);
-        day7.put(K_LUNCH, R.string.d7_lunch_content);
-        day7.put(K_DINNER, R.string.d7_dinner_content);
+        day7.put(K_BREAKFAST, context.getString(R.string.d7_bf_content));
+        day7.put(K_LUNCH, context.getString(R.string.d7_lunch_content));
+        day7.put(K_DINNER, context.getString(R.string.d7_dinner_content));
         day7.put(K_COMPLETED, "false");
 
         dBase.insert(DB_TABLE, null, day1);
@@ -123,8 +122,7 @@ public class MealPlanDBase {
 
     public String[] getMealPlan(String day) throws SQLException{
         String selectQuery = "SELECT * FROM " +DB_TABLE+" WHERE "+K_DAY+"="+day;
-        Cursor c = null;
-        c = dBase.rawQuery(selectQuery, null);
+        Cursor c = dBase.rawQuery(selectQuery, null);
         String[] data = new String[5];
         if(c.moveToFirst()){
             data[0] = c.getString((int)c.getColumnIndex(K_DAY));
@@ -133,7 +131,7 @@ public class MealPlanDBase {
             data[3] = c.getString((int)c.getColumnIndex(K_DINNER));
             data[4] = c.getString((int)c.getColumnIndex(K_COMPLETED));
         }
-
+        c.close();
         return data;
     }
 
